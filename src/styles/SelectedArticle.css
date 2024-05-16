@@ -1,0 +1,32 @@
+.selected-article-container {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.article-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    flex: 1;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.article-content {
+    margin-top: 20px;
+}

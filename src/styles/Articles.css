@@ -1,0 +1,54 @@
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.article-container {
+    width: calc(50% - 20px);
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.article-container.selected {
+    background-color: #f0f0f0;
+}
+
+.article-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    flex: 1; /* Le nom occupe tout l'espace disponible à gauche */
+}
+
+.author {
+    display: flex; /* Utilisation de Flexbox pour aligner l'auteur et l'avatar */
+    align-items: center; /* Centrer verticalement les éléments à l'intérieur */
+}
+
+.avatar {
+    width: 50px; /* Taille de l'avatar */
+    height: 50px;
+    border-radius: 50%; /* Avatar arrondi */
+    margin-left: 10px; /* Espacement entre l'avatar et le texte */
+}
+
+.article-content {
+    display: flex; /* Utilisation de Flexbox pour organiser les éléments */
+    flex-direction: column; /* Disposition verticale des éléments */
+}
+
+.date {
+    align-self: flex-end; /* Aligner la date sur la droite */
+    font-weight: bold; /* Mettre la date en gras */
+}
