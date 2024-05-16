@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/OdaceBlog/static/css/main.64a7f99e.css",
+    "main.js": "/OdaceBlog/static/js/main.f175aded.js",
+    "static/js/453.3e0e5308.chunk.js": "/OdaceBlog/static/js/453.3e0e5308.chunk.js",
+    "static/media/avatar.png": "/OdaceBlog/static/media/avatar.a8653453950151c6247e.png",
+    "index.html": "/OdaceBlog/index.html",
+    "main.64a7f99e.css.map": "/OdaceBlog/static/css/main.64a7f99e.css.map",
+    "main.f175aded.js.map": "/OdaceBlog/static/js/main.f175aded.js.map",
+    "453.3e0e5308.chunk.js.map": "/OdaceBlog/static/js/453.3e0e5308.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64a7f99e.css",
+    "static/js/main.f175aded.js"
+  ]
+}
